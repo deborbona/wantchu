@@ -9,13 +9,15 @@ align-items: center;
 justify-content: center;
 background-color: #E8D4C5
 }
-#Heading2 {
-font-family: 'Prata', serif;
+#Container {
 display: flex;
 justify-content: space-around;
+align-content: space-around;
 align-items: center;
-
 }
-#Heading3 {
+#Container h2 {
+font-family: 'Prata', serif;
+}
+#Container p {
 font-family: 'Open Sans', sans-serif;
 }
