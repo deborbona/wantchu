@@ -2,22 +2,32 @@ body {
   background-color: fff;
 }
 #Heading1 {
-font-family: 'Arimo', sans-serif;
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center;
-background-color: #E8D4C5
+  font-family: 'Arimo', sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #E8D4C5
 }
 #Container {
-display: flex;
-justify-content: space-around;
-align-content: space-around;
-align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
 }
 #Container h2 {
-font-family: 'Prata', serif;
+  font-family: 'Prata', serif;
+  text-align: center;
 }
 #Container p {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+}
+
+.thumbnailImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 50%;
 }
