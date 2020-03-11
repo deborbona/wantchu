@@ -1,27 +1,45 @@
 body {
-  background-color: fff;
+  background-color: #fff;
 }
+
 #Heading1 {
   font-family: 'Arimo', sans-serif;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: #E8D4C5
+  background-color: #E8D4C5;
+  padding: 50px;
 }
+
 #Container {
   display: flex;
-  justify-content: space-around;
-  align-content: space-around;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 50px;
 }
+
 #Container h2 {
   font-family: 'Prata', serif;
   text-align: center;
 }
+
 #Container p {
   font-family: 'Open Sans', sans-serif;
-  flex-direction: column;
+  width: 100%;
+}
+
+#subContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: hidden;
+  border-width: 10px;
+  box-sizing: border-box;
+  padding: 100px;
+  padding-top: 0px;
 }
 
 .thumbnailImage {
@@ -30,4 +48,46 @@ body {
   justify-content: space-between;
   width: 200px;
   height: 50%;
+  padding: 100px;
+}
+
+.postTitle {
+  max-width: 100px;
+  max-height: 100px;
+  background-color: #CCCCCC;
+}
+
+#postMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+#postMainContainer h2 {
+  font-family: 'Prata', serif;
+  text-align: center;
+}
+
+#postMainContainer p {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+#postContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.postThumbnailImage {
+  max-width: 400px;
+  max-height: 400px;
+  padding: 100px;
 }
